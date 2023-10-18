@@ -32,5 +32,6 @@ public class Human extends Actor implements ActorBehaviour {
     public boolean isTakeOrder() {
         return isTakeOrder;
     }
+
 }
 
