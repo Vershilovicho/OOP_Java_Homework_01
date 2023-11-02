@@ -24,7 +24,7 @@ public class Main {
         System.out.print("Введите действие (+,*,/): ");
         char oper = iScanner.next().charAt(0);
 
-        // Просим пользователя ввести второе комплексное число
+
         System.out.println("Введите действительную часть:");
         double real2 = iScanner.nextDouble();
         System.out.println("Введите мнимую часть:");
@@ -50,7 +50,5 @@ public class Main {
 
         }
         iScanner.close();
-
     }
-
 }
